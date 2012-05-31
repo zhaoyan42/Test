@@ -1,6 +1,24 @@
-# Build Folders (you can keep bin if you'd like, to store dlls and pdbs)
-bin
-obj
+﻿###############
+#    folder   #
+###############
+/obj
+/bin
+*/obj
+*/bin
+/Skight.ES.Register.Web.UI/obj
+/_ReSharper.*
+/packages
 
-# mstest test results
-TestResults
+
+
+###############
+#     file    #
+###############
+*.lib
+*.cache
+*.user
+*.suo
+*.dotCover
+App.config
+*/Data/Database*.*
+/Skight.ES.Register.Web.UI/Web.config
