@@ -63,14 +63,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Data\NORTHWND.LDF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>NORTHWND.MDF</DependentUpon>
     </Content>
-    <Content Include="Data\NORTHWND.MDF">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
+    <Content Include="Data\NORTHWND.MDF" />
     <Content Include="Data\NORTHWND_log.ldf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>NORTHWND.MDF</DependentUpon>
     </Content>
     <Content Include="Data\PUBS.MDF">

@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using ExceptionTest;
 
 namespace TestWebApplication.Orders
 {
@@ -11,7 +12,9 @@ namespace TestWebApplication.Orders
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            IOrderService orderService = new OrderService();
+            OrdersList.DataSource = orderService.GetAllOrders();
+            OrdersList.DataBind();
         }
     }
 }

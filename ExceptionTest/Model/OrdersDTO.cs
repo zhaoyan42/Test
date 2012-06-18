@@ -4,9 +4,9 @@ namespace ExceptionTest.Model
 {
     public class OrdersDTO
     {
-        public DateTime? OrderDate;
-        public string CompanyName;
-        public string FirstName;
-        public string LastName;
+        public DateTime? OrderDate { get; set; }
+        public string CompanyName { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
     }
 }

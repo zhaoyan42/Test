@@ -11,7 +11,7 @@ namespace ExceptionTest
     {
         private static NorthWindEntities entities = new NorthWindEntities();
 
-        public IQueryable<OrdersDTO> GetAllOrders()
+        public IEnumerable<OrdersDTO> GetAllOrders()
         {
             return entities.Orders.Select(order=>new OrdersDTO
                                                      {

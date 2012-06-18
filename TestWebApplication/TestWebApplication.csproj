@@ -80,6 +80,12 @@
   <ItemGroup>
     <Content Include="MasterPage.Master" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ExceptionTest\ExceptionTest.csproj">
+      <Project>{918DF07A-2D74-47A0-AEC5-4CDA0E8B977B}</Project>
+      <Name>ExceptionTest</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
   <ProjectExtensions>
